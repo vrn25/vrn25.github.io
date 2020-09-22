@@ -8,8 +8,8 @@ I am broadly interested in Machine Learning and AI. My goal is to develop robust
 
 * Developing provably convergent and efficient algorithms for sequential decision making in mixed cooperative-competitive multi-agent environments that learn with teammates' and opponents' awareness.
 
-* Conjuction of machine learning and robotics (Robot learning). Particularly in deep reinforcement learning (especially model-based RL, unsupervised (meta-) RL).
+* Conjuction of machine learning and robotics (Robot learning). Particularly using deep reinforcement learning and model-based optimization for robotics.
 
-* Adversarial learning to improve the Conditional Variance at Risk (CVaR), that is, the worst-case performance of the system.
+* Developing algorithms for adversarial learning to improve the Conditional Variance at Risk (CVaR) and achieve Sim2Real transfer with minimal degradation of performance.
 
-* Algorithms to achieve Sim2Real transfer with minimal degradation of performance.
+* Unsupervised reinforcement learning and meta-learning.
