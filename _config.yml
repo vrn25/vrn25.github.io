@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Videh Raj Nema"
 title_separator          : "-"
 name                     : &name "Videh Raj Nema"
-description              : &description "Research @Purdue, @RBC-DSAI IIT Madras"
+description              : &description "Research @Caltech, Formerly @RBC-DSAI IIT Madras"
 url                      : https://vrn25.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "vrn25/vrn25.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Videh Raj Nema"
   avatar           : "Videh.png"
-  bio              : "Research intern @Purdue, Formerly @RBC-DSAI, IIT Madras | CS undergrad @NITK"
+  bio              : "Research intern @Caltech, Formerly @RBC-DSAI, IIT Madras | CS undergrad @NITK"
   location         : "Surathkal, Mangalore"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
