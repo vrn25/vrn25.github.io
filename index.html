@@ -54,7 +54,7 @@
 
           <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-<tr onmouseout="ms_thesis_stop()" onmouseover="ms_thesis_start()" bgcolor="#ffffd0">
+<tr onmouseout="ms_thesis_stop()" onmouseover="ms_thesis_start()">
   <td style="padding:16px;width:20%;vertical-align:middle">
     <div class="one">
       <div class="two" id='ms_thesis_image'>
@@ -82,10 +82,86 @@
     <br>
     <em>University of Alberta</em>, Spring 2025
     <br>
-    <a href="https://ualberta.scholaris.ca/items/bdfa3c85-9990-406d-8e33-fc43562f05cf/full">thesis page</a>
+    <a href="https://ualberta.scholaris.ca/items/bdfa3c85-9990-406d-8e33-fc43562f05cf/full">Thesis page</a>
+    <em>Nominated for the UAlberta Computing Science MS Outstanding Thesis Award</em>
     <p></p>
     <p>
 	Master's thesis on continual reward learning based on non-stationary teacher preferences using regularized hypernetworks. This takes a step toward human-agent interaction for the real world where the interaction is continual and the human's preferences are non-stationary.
+    </p>
+  </td>
+</tr>
+
+<tr onmouseout="increasing_replay_stop()" onmouseover="increasing_replay_start()">
+  <td style="padding:16px;width:20%;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='increasing_replay_image'>
+        <img src='images/increasing_replay_after.png' width=100%>
+      </div>
+      <img src='images/increasing_replay_before.png' width=100%>
+    </div>
+    <script type="text/javascript">
+      function increasing_replay_start() {
+        document.getElementById('increasing_replay_image').style.opacity = "1";
+      }
+
+      function increasing_replay_stop() {
+        document.getElementById('increasing_replay_image').style.opacity = "0";
+      }
+      increasing_replay_stop()
+    </script>
+  </td>
+  <td style="padding:8px;width:80%;vertical-align:middle">
+    <!-- <a href=""> -->
+      <span class="papertitle">Understanding the effect of varying amounts of replay per step</span>
+    <!-- </a> -->
+    <br>
+    <a href="https://ca.linkedin.com/in/animesh-kumar-paul">Animesh Kumar Paul</a>,
+    <strong>Videh Raj Nema</strong>
+    (equal contribution; work done as a part of the RL-1 course taught by <a href="https://sites.ualberta.ca/~amw8/">Prof. Adam White</a> at the University of Alberta)
+    <br>
+    <em>arXiv</em>, 2023
+    <br>
+    <a href="https://arxiv.org/pdf/2302.10311">arXiv</a>
+    <p></p>
+    <p>
+	A systematic study on the effect of varying amounts of replay per step in Deep Q-Networks (DQN). Strong empirical evidence that increasing replay improves DQN's sample efficiency, reduces the variation in its performance, and makes it more robust to change in hyperparameters.
+    </p>
+  </td>
+</tr>
+
+<tr onmouseout="ipo_stop()" onmouseover="ipo_start()">
+  <td style="padding:16px;width:20%;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='ipo_image'>
+        <img src='images/ipo_after.png' width=100%>
+      </div>
+      <img src='images/ipo_before.png' width=100%>
+    </div>
+    <script type="text/javascript">
+      function ipo_start() {
+        document.getElementById('ipo_image').style.opacity = "1";
+      }
+
+      function ipo_stop() {
+        document.getElementById('ipo_image').style.opacity = "0";
+      }
+      ipo_stop()
+    </script>
+  </td>
+  <td style="padding:8px;width:80%;vertical-align:middle">
+    <!-- <a href=""> -->
+      <span class="papertitle">Interactive Robust Policy Optimization for Multi-Agent Reinforcement Learning</span>
+    <!-- </a> -->
+    <br>
+    <strong>Videh Raj Nema</strong>,
+    <a href="https://dsai.iitm.ac.in/~ravi/">Balaraman Ravindran</a>
+    <br>
+    <em>NeurIPS <a href="https://sites.google.com/view/deep-rl-workshop-neurips2021">Deep RL</a> and <a href="https://www.strategic-ml.com">Strategic-ML workshops</a></em>, 2021
+    <br>
+    <a href="https://drive.google.com/file/d/1trE04xRLcBVidU_0ZDfVihJUfqLE4b4c/view?usp=sharing">Paper</a>
+    <p></p>
+    <p>
+	Addressing non-stationarity and robustness in multi-agent reinforcement learning using principles from game theoretical optimization and adversarial learning, respectively. This work provides practical policy gradient (stochastic and deterministic), natural policy gradient, and trust-region algorithms for multi-agent reinforcement learning using centralized training and decentralized execution.
     </p>
   </td>
 </tr>
